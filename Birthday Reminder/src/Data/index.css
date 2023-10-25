@@ -1,0 +1,51 @@
+.Profile{
+    width: 100%;
+    height: 100vh;
+    background-color: palevioletred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Profile .cont{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   width: 80%;
+   margin: 20px auto;
+}
+
+.cont img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.cont p{
+    color: gray;
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+.cont .sub-cont{
+    width: 120px; 
+}
+
+.Card{
+    width: 300px;
+    height: auto;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+}
+.Profile button{
+    width: 100px;
+    height: 150 ;
+    border-radius: 20px;
+    background: black;
+    color: white;
+    border: none;
+    margin: 12px 0;
+    font-size: 15px;
+}
